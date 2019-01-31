@@ -15,14 +15,6 @@
 }
 
 @font-face {
-  font-family: 'proxima_nova_rgbold';
-  src: url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
-       url('../fonts/proxima_nova_bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'proxima_nova_thextrabold';
   src: url('../fonts/proxima_nova_extrabold-webfont.woff2') format('woff2'),
        url('../fonts/proxima_nova_extrabold-webfont.woff') format('woff');
@@ -400,7 +392,7 @@ a.open-shop {
 
 .create-shop h2 {
   position: relative;
-  width: 840px;
+  width: 780px;
   padding-top: 12px;
 }
 
@@ -410,7 +402,7 @@ a.open-shop {
   left: -71px;
   content: "";
   display: block;
-  width: 980px;
+  width: 950px;
   height: 1px;
   background-color: #ccc;
 }
@@ -420,14 +412,24 @@ a.open-shop {
   margin-bottom: 175px;
 }
 
+.create-shop li > a {
+  font-family: 'proxima_nova_thextrabold';
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+  text-align: center;
+  border-bottom: 1px solid #fcbd96;
+  color: #fa7b2e;
+}
+
 .create-shop__item {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 190px;
+  width: 170px;
   line-height: 23px;
   text-align: center;
-  margin-right: 30px;
+  margin-right: 53px;
 }
 
 .create-shop__item::before {
@@ -450,7 +452,7 @@ a.open-shop {
 }
 
 .create-shop__item--2::before {
-  background-position: -168px -100px;
+  background-position: -252px -100px;
 }
 
 .create-shop__item--3::before {
@@ -458,7 +460,7 @@ a.open-shop {
 }
 
 .create-shop__item--4::before {
-  background-position: -252px -100px;
+  background-position: -168px -100px;
 }
 
 .create-shop__item--5::before {
@@ -473,10 +475,16 @@ a.open-shop {
 /* Control panel */
 
 .control-panel h2 {
-  width: 475px;
+  width: 510px;
   text-align: left;
   margin-left: 117px;
   margin-bottom: 24px;
+}
+
+.control-panel h2:nth-of-type(2) {
+  width: 620px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .control-panel ul {
@@ -488,7 +496,7 @@ a.open-shop {
 
 .control-panel ul::after {
   position: absolute;
-  top: -179px;
+  top: -130px;
   right: 67px;
   content: "";
   display: block;
@@ -517,6 +525,14 @@ a.open-shop {
 .control-panel em {
   display: block;
   font-style: normal;
+}
+
+.control-panel video {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 /* Partner program */
