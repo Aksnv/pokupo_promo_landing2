@@ -417,7 +417,6 @@ a.open-shop {
   font-size: 15px;
   font-weight: 800;
   line-height: 23px;
-  text-align: center;
   border-bottom: 1px solid #fcbd96;
   color: #fa7b2e;
 }
@@ -529,27 +528,27 @@ a.open-shop {
 
 .control-panel video {
   display: block;
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 60px;
 }
 
-/* Partner program */
+/* Reviews */
 
-.partner-program {
+.reviews {
   padding-top: 50px;
   padding-bottom: 66px;  
   background-color: #efece7;
 }
 
-.partner-program__sale ul {
+.reviews ul {
   position: relative;
   margin-top: 0;
   padding-top: 48px;
 }
 
-.partner-program__sale-item {
+.reviews__item {
   position: relative;
   display: inline-block;
   vertical-align: top;
@@ -557,13 +556,13 @@ a.open-shop {
   line-height: 25px;
 }
 
-.partner-program__sale-item strong {
+.reviews__item strong {
   display: block;
   text-align: right;
   padding-top: 15px;
 }
 
-.partner-program__sale-item::before {
+.reviews__item::before {
   position: absolute;
   top: 19px;
   left: 0;
@@ -574,31 +573,31 @@ a.open-shop {
   color: #fea700;
 }
 
-.partner-program__sale-item--1 {
+.reviews__item--1 {
   width: 270px;
   margin-left: 92px;
   margin-right: 118px;
 }
 
-.partner-program__sale-item--1::before {
+.reviews__item--1::before {
   left: -35px;
   content: "1";
 }
 
-.partner-program__sale-item--2 {
+.reviews__item--2 {
   margin-right: 92px;
 }
 
-.partner-program__sale-item--2::before {
+.reviews__item--2::before {
   left: -54px;
   content: "2";
 }
 
-.partner-program__sale-item--3 {
+.reviews__item--3 {
   width: 245px;
 }
 
-.partner-program__sale-item--3::before {
+.reviews__item--3::before {
   left: -52px;
   content: "3";
 }
@@ -637,7 +636,8 @@ a.open-shop {
   margin-bottom: 6px;
 }
 
-.our-team h3::before {
+.our-team h3::before,
+.our-team h3::after {
   position: absolute;
   top: -51px;
   left: calc(50% - 42px);
@@ -649,15 +649,34 @@ a.open-shop {
   background-position: -310px -84px;
 }
 
+.our-team h3::after {
+  top: 137px;
+}
+
 .our-team p {
-  width: 758px;
+  width: 785px;
   line-height: 25px;
   margin: 0 auto;
   margin-bottom: 93px;
 }
 
+.our-team p:nth-of-type(1) > a,
+.our-team p:last-of-type > a {
+  font-family: 'proxima_nova_thextrabold';
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 23px;
+  text-decoration: none;
+  border-bottom: 1px solid #fcbd96;
+  color: #fa7b2e;
+}
+
+.our-team a:hover {
+  opacity: 0.8;
+}
+
 .our-team p:last-of-type {
-  margin-bottom: 2px;
+  margin-bottom: 0;
 }
 
 /* Updating */
@@ -713,7 +732,7 @@ a.open-shop {
 
 .updating__social {
   position: absolute;
-  top: 261px;
+  top: 215px;
   left: calc(50% - 108px);
   width: 216px;
   height: 54px;
