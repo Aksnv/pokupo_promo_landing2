@@ -12,6 +12,10 @@
     margin-left: 0;
   }
 
+  .header__phone {
+    margin-right: 0;
+  }
+
 }
 
 @media screen and (max-width: 1179px) {
@@ -34,6 +38,11 @@
 
   .header__logo a {
     margin-top: 40px;
+  }
+
+  .header__phone {
+    margin-top: 60px;
+    margin-right: 150px;
   }
 
   .header__menu {
@@ -104,13 +113,14 @@
   }
 
   .header__promo ul {
+    width: 645px;
     margin-bottom: 49px;
     padding-left: 39px;
   }
 
   .header__promo li {
     font-size: 20px;
-    line-height: 31px;
+    line-height: 26px;
   }
 
   .header__promo li:last-of-type span {
@@ -120,7 +130,7 @@
   }
 
   a.open-shop {
-    width: 345px;
+    width: 380px;
     height: 70px;
     font-size: 24px;
     line-height: 70px;
@@ -168,6 +178,8 @@
 
   .create-shop__item {
     position: absolute;
+    width: 190px;
+    background-color: #ffffff;
   }
 
   .create-shop__item::before {
@@ -208,7 +220,9 @@
 
   .control-panel h2 {
     text-align: center;
-    padding-right: 10px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 0;
   }
 
   .control-panel h2 > span {
@@ -216,25 +230,32 @@
   }
 
   .control-panel ul {
+    margin-bottom: 430px;
     padding-left: 107px;
   }
 
   .control-panel ul::after {
-    top: 122px;
+    top: 175px;
     right: 125px;
+  }
+
+  .control-panel video {
+    width: 650px;
+    margin-bottom: 40px;
   }
 
   /* Reviews */
 
   .reviews {
-    margin-bottom: 55px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
   }
 
   .reviews h2 {
     width: 595px;
     font-size: 30px;
     line-height: 36px;
-    padding-top: 86px;
+    padding-top: 0;
     padding-right: 32px;
   }
 
@@ -274,7 +295,7 @@
 
   .our-team {
     padding-top: 139px;
-    padding-bottom: 71px;
+    padding-bottom: 40px;
   }
 
   .our-team h2 {
@@ -288,6 +309,16 @@
   .our-team p {
     width: 600px;
     margin-bottom: 87px;
+  }
+
+  .our-team p:nth-of-type(1) > a {
+
+  }
+
+  /* Updating */
+
+  .updating__social {
+    top: 260px;
   }
 
   /* Footer */

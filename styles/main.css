@@ -162,7 +162,7 @@ a[href^=tel] {
 
 .header__menu--hamburger {
   position: absolute;
-  top: 40px;
+  top: 63px;
   right: 0;
   display: none;
   width: 20px;
@@ -216,6 +216,8 @@ a[href^=tel] {
 }
 
 .header__social h4 {
+  position: relative;
+  top: -20px;
   font-size: 13px;
 }
 
