@@ -48,7 +48,7 @@
     z-index: 2;
   }
 
-  /* Выпадающее меню */
+  /* Drop-down menu */
 
   .header__menu--open {
     display: block;
@@ -89,7 +89,7 @@
     display: block;
   }
 
-  /* END - Выпадающее меню */
+  /* END - Drop-down menu */
 
   .header__menu li {
     display: block;
@@ -226,7 +226,7 @@
 
   /* Partner program */
 
-  .partner-program__top h2 {
+  .partner-program h2 {
     width: 595px;
     font-size: 30px;
     line-height: 36px;
@@ -268,220 +268,6 @@
 
   .partner-program__sale ul::after {
     display: none;
-  }
-
-  .partner-program__income h2 {
-    width: 595px;
-    margin-bottom: 163px;
-  }
-
-  .partner-program__income h2::after {
-    left: 75px;
-    bottom: 201px;
-    width: 520px;
-  }
-
-  .partner-program__income h2 > span {
-    position: relative;
-    top: -3px;
-  }
-
-  .partner-program__income ul {
-    padding-bottom: 50px;
-  }
-
-  .partner-program__income-item--1 {
-    width: 190px;
-    margin-left: 10px;
-    margin-right: 48px;
-  }
-
-  .partner-program__income-item--1::before {
-    left: 47px;
-  }
-
-  .partner-program__income-item--1 span {
-    display: inline;
-  }
-
-  .partner-program__income-item--2 {
-    width: 175px;
-    margin-right: 39px;
-  }
-
-  .partner-program__income-item--3 {
-    width: 180px;
-    margin-right: 0;
-  }
-
-  /* Information channels */
-
-  .information-channels h2 {
-    width: 100%;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 46px;
-  }
-
-  .information-channels__top-block--youtube,
-  .information-channels__top-block--why,
-  .information-channels__top-block--android {
-    float: none;
-  }
-
-  .information-channels__top-block--youtube {
-    top: 215px;
-  }
-
-  .information-channels__top-block--youtube::after {
-    top: 51px;
-    left: 259px;
-    width: 451px;
-    height: 396px;
-    background-image: url(../images/youtube_750.png);
-  }
-
-  .information-channels__top-block--youtube h2,
-  .information-channels__top-block--android h2,
-  .information-channels__top-block--digest h2 {
-    font-size: 30px;
-    text-align: left;
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-
-  .information-channels__top-block--youtube h2 {
-    padding-top: 42px;
-  }
-
-  .information-channels__top-block--youtube ul {
-    margin-top: 12px;
-    padding-left: 0;
-  }
-
-  .information-channels__top-block--why {
-    position: absolute;
-    top: 111px;
-    left: 183px;
-    width: 310px;
-    margin-right: 0;
-  }
-
-  .information-channels__top-block--why span {
-    position: relative;
-    top: 10px;
-    display: block;
-  }
-
-  .information-channels__top-block--android::before {
-    top: 206px;
-  }
-
-  .information-channels__top-block--android::after {
-    top: 55px;
-    left: 289px;
-    width: 421px;
-    height: 585px;
-    background-image: url(../images/android_750.png);
-  }
-
-  .information-channels__top-block--android h2 {
-    padding-top: 75px;
-  }
-
-  .information-channels__top-block--digest {
-    margin-left: 0;
-  }
-
-  .information-channels__top-block--digest::before {
-    top: 178px;
-    left: 198px;
-  }
-
-  .information-channels__top-block--digest::after {
-    top: 115px;
-    left: 272px;
-    width: 438px;
-    height: 446px;
-    background-image: url(../images/digest_750.png);
-  }
-
-  .information-channels__top-block--digest h2 {
-    padding-top: 98px;
-  }
-
-  .information-channels__top-block--digest ul {
-    width: 330px;
-    padding-left: 0;
-  }
-
-  .information-channels__bottom {
-    position: relative;
-    min-height: 625px;
-    margin-bottom: 27px;
-  }
-
-  .information-channels__bottom-block {
-    float: none;
-  }
-  
-  .information-channels__bottom-block--social,
-  .information-channels__bottom-block--blog,
-  .information-channels__bottom-block--habr,
-  .information-channels__bottom-block--golos {
-    position: absolute;
-  }
-
-  .information-channels__bottom-block--social {
-    top: 317px;
-    left: 0;
-  }
-
-  .information-channels__bottom-block--blog {
-    top: 22px;
-    left: 0;
-  }
-
-  .information-channels__bottom-block--habr {
-    top: 317px;
-    left: 346px;
-  }
-
-  .information-channels__bottom-block--golos {
-    top: 22px;
-    left: 334px;
-  }
-
-  /* Synergetic organization */
-
-  .synergetic-organization {
-    background-position: -458px top;
-  }
-
-  .synergetic-organization h2 {
-    padding-top: 313px;
-    padding-left: 45px;
-  }
-
-  .synergetic-organization p {
-    padding-left: 97px;
-  }
-
-  /* Our mission */
-
-  .our-mission {
-    height: 407px;
-    padding-top: 175px;
-  }
-
-  .our-mission p {
-    width: 620px;
-    margin: 0 auto;
-    padding-right: 0;
-  }
-
-  .our-mission p::before {
-    left: 259px;
   }
 
   /* Our team */
@@ -532,12 +318,6 @@
     background-position: -353px top;
   }
 
-/* Synergetic organization */
-
-  .synergetic-organization {
-    background-position: -595px top;
-  }
-
 }
 
 @media screen and (max-width: 669px) {
@@ -573,7 +353,7 @@
     top: 30px;
   }
 
-  /* Выпадающее меню */
+  /* Drop-down menu */
 
   .header__menu--open + .header__menu--hamburger {
     top: 30px;
@@ -595,7 +375,7 @@
     top: 513px;
   }
 
-  /* END - Выпадающее меню */
+  /* END - Drop-down menu */
 
   .header__promo h1 {
     width: 280px;
@@ -746,12 +526,7 @@
 
   /* Partner program */
 
-  .partner-program__top {
-    height: 421px;
-    background-size: 1346px 421px;
-  }
-
-  .partner-program__top h2 {
+  .partner-program h2 {
     width: 300px;
     font-size: 25px;
     line-height: 30px;
@@ -775,309 +550,6 @@
 
   .partner-program__sale-item::before {
     top: 19px;
-  }
-
-  .partner-program__income h2 {
-    position: relative;
-    left: 0;
-    width: 100%;
-    font-size: 25px;
-    margin-bottom: 135px;
-  }
-
-  .partner-program__income h2::after {
-    display: none;
-  }
-
-  .partner-program__income h2 > span {
-    top: -1px;
-  }
-
-  .partner-program__income ul {
-    padding-bottom: 41px;
-  }
-
-  .partner-program__income-item::before {
-    top: -117px;
-  }
-
-  .partner-program__income-item--1,
-  .partner-program__income-item--2 {
-    margin-right: 0;
-  }
-
-  .partner-program__income-item--1 {
-    margin-left: 52px;
-    margin-bottom: 149px;
-  }
-
-  .partner-program__income-item--1::before {
-    top: -117px;
-  }
-
-  .partner-program__income-item--2 {
-    margin-left: 69px;
-    margin-bottom: 147px;
-  }
-
-  .partner-program__income-item--2::before {
-    left: 33px;
-  }
-
-  .partner-program__income-item--3 {
-    margin-left: 61px;
-  }
-
-  .partner-program__income-item--3::before {
-    left: 39px;
-  }
-
-  /* Information channels */
-
-  .information-channels h2 {
-    width: 300px;
-    padding-top: 20px;
-  }
-
-  .information-channels h2 > span {
-    position: relative;
-    top: -1px;
-  }
-
-  .information-channels__top {
-    padding-bottom: 0;
-  }
-
-  .information-channels__top-block h3 {
-    margin-top: 15px;
-  }
-
-  .information-channels__top-block a {
-    line-height: 22px;
-  }
-
-  .information-channels__top-block--why {
-    top: 232px;
-    left: -3px;
-    width: 300px;
-    margin-right: 0;
-  }
-
-  .information-channels__top-block--why ul {
-    padding-left: 10px;
-  }
-
-  .information-channels__top-block--why span {
-    position: static;
-    display: inline;
-  }
-
-  .information-channels__top-block--youtube h2,
-  .information-channels__top-block--android h2,
-  .information-channels__top-block--digest h2 {
-    width: 300px;
-    font-size: 20px;
-  }
-
-  .information-channels__top-block--youtube h2 > span,
-  .information-channels__top-block--android h2 > span,
-  .information-channels__top-block--digest h2 > span {
-    position: relative;
-    top: 0;
-    display: block;
-  }
-
-  .information-channels__top-block--youtube {
-    width: 300px;
-  }
-
-  .information-channels__top-block--youtube::after {
-    top: -25px;
-    left: -2px;
-    width: 232px;
-    height: 198px;
-    background-size: 232px 198px;
-  }
-
-  .information-channels__top-block--youtube h2 {
-    margin-right: 0;
-    padding-top: 131px;
-  }
-
-  .information-channels__top-block--youtube ul {
-    margin-top: 5px;
-    padding-left: 10px;
-  }
-
-  .information-channels__top-block--android {
-    width: 300px;
-  }
-
-  .information-channels__top-block--android::before {
-    display: none;
-  }
-
-  .information-channels__top-block--android::after {
-    top: -34px;
-    left: 5px;
-    width: 220px;
-    height: 292px;
-    background-size: 220px 292px;
-  }
-
-  .information-channels__top-block--android h2 {
-    margin-bottom: 0;
-    padding-top: 228px;
-  }
-
-  .information-channels__top-block--android ul {
-    margin-bottom: 21px;
-    padding-left: 10px;
-  }
-
-  .information-channels__top-block--android p {
-    width: 300px;
-  }
-
-  .information-channels__top-block--digest {
-    width: 300px;
-  }
-
-  .information-channels__top-block--digest::before {
-    top: 266px;
-    left: 137px;
-    width: 35px;
-    height: 33px;
-    background-position: -644px -56px;
-  }
-
-  .information-channels__top-block--digest::after {
-    top: -8px;
-    left: -1px;
-    width: 253px;
-    height: 255px;
-    background-size: 253px 255px;
-  }
-
-  .information-channels__top-block--digest h2 {
-    margin-bottom: 26px;
-    padding-top: 216px;
-  }
-
-  .information-channels__top-block--digest ul {
-    width: 300px;
-    padding-left: 10px;
-  }
-
-  .information-channels__bottom {
-    min-height: 946px;
-  }
-
-  .information-channels__bottom-block {
-    width: 100%;
-  }
-
-  .information-channels__bottom-block--blog {
-    top: 7px;
-  }
-
-  .blog-link {
-    top: 20px;
-  }
-
-  .information-channels__bottom-block--social {
-    top: 201px;
-    margin-right: 0;
-  }
-
-  .social-link--1 {
-    top: -8px;
-  }
-
-  .social-link--2 {
-    top: -13px;
-  }
-
-  .social-link--3 {
-    top: -10px;
-  }
-
-  .social-link--4 {
-    top: -11px;
-  }
-
-  .information-channels__bottom-block--golos {
-    top: 526px;
-    left: 0;
-  }
-
-  .information-channels__bottom-block--habr {
-    top: 720px;
-    left: 0;
-  }
-
-  .habr-link {
-    top: 31px;
-  }
-
-  /* Synergetic organization */
-
-  .synergetic-organization {
-    height: 657px;
-    background-size: 1347px 561px;
-    background-position: -387px top;
-  }
-
-  .synergetic-organization h2 {
-    width: 300px;
-    font-size: 20px;
-    padding-top: 145px;
-    padding-left: 0;
-    padding-bottom: 7px;
-  }
-
-  .synergetic-organization p {
-    width: 302px;
-    padding-left: 0;
-  }
-
-  .synergetic-organization a {
-    position: relative;
-    top: 2px;
-    display: inline;
-    width: 300px;
-    line-height: 34px;
-  }
-
-  /* Our mission */
-
-  .our-mission {
-    height: 419px;
-    padding-top: 88px;
-  }
-
-  .our-mission::before {
-    top: -143px;
-    height: 562px;
-  }
-
-  .our-mission h2 {
-    margin-bottom: 2px;
-  }
-
-  .our-mission h2 > span {
-    position: relative;
-    top: -10px;
-    display: block;
-  }
-
-  .our-mission p {
-    width: 300px;
-  }
-
-  .our-mission p::before {
-    top: -208px;
-    left: 101px;
   }
 
   /* Our team */
@@ -1160,12 +632,6 @@
 
   .header {
     background-position: -473px top;
-  }
-
-/* Synergetic organization */
-
-  .synergetic-organization {
-    background-position: -491px top;
   }
 
 }

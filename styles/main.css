@@ -537,36 +537,10 @@ a.open-shop {
 
 /* Partner program */
 
-.partner-program__top {
-  height: 608px;
-  background-image: url("../images/bg-middle.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  color: #fff;
-}
-
-.partner-program__top h2 {
-  position: relative;
-  width: 975px;
-  font-size: 50px;
-  line-height: 55px;
-  text-shadow: 0 28px 73px rgba(0, 0, 0, 0.36);
-  margin: 0 auto;
-  padding-top: 64px;
-  padding-right: 46px;
-}
-
-.partner-program__top h2 > span {
-  font-family: 'proxima_nova_ltlight';
-  font-weight: 100;
-}
-
-.partner-program__bottom {
+.partner-program {
+  padding-top: 50px;
+  padding-bottom: 66px;  
   background-color: #efece7;
-}
-
-.partner-program__sale {
-  margin-bottom: 100px;
 }
 
 .partner-program__sale ul {
@@ -575,23 +549,18 @@ a.open-shop {
   padding-top: 48px;
 }
 
-.partner-program__sale ul::after {
-    position: absolute;
-    bottom: -53px;
-    left: 98px;
-    content: "";
-    display: block;
-    width: 980px;
-    height: 1px;
-    background-color: #ccc;
-}
-
 .partner-program__sale-item {
   position: relative;
   display: inline-block;
   vertical-align: top;
   width: 295px;
   line-height: 25px;
+}
+
+.partner-program__sale-item strong {
+  display: block;
+  text-align: right;
+  padding-top: 15px;
 }
 
 .partner-program__sale-item::before {
@@ -632,78 +601,6 @@ a.open-shop {
 .partner-program__sale-item--3::before {
   left: -52px;
   content: "3";
-}
-
-.partner-program__income h2 {
-  margin-bottom: 175px;
-}
-
-.partner-program__income h2::after {
-  position: absolute;
-  left: 216px;
-  bottom: 192px;
-  content: "";
-  display: block;
-  width: 750px;
-  height: 1px;
-  background-color: #ccc;
-}
-
-.partner-program__income ul {
-  padding-bottom: 66px;
-}
-
-.partner-program__income-item {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  width: 285px;
-  line-height: 25px;
-  text-align: center;
-  margin-right: 30px;
-}
-
-.partner-program__income-item::before {
-  position: absolute;
-  top: -126px;
-  content: "";
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-image: url("../images/sprite.png");
-}
-
-.partner-program__income-item--1 {
-  margin-left: 96px;
-  margin-right: 120px;
-}
-
-.partner-program__income-item--1::before {
-  left: 95px;
-  background-position: -200px 0;
-}
-
-.partner-program__income-item--1 span {
-  display: block;
-}
-
-.partner-program__income-item--2 {
-  width: 160px;
-  margin-right: 175px;
-}
-
-.partner-program__income-item--2::before {
-  left: 35px;
-  background-position: -100px 0;
-}
-
-.partner-program__income-item--3 {
-  width: 195px;
-}
-
-.partner-program__income-item--3::before {
-  left: 44px;
-  background-position: 0 0;
 }
 
 /* Our team */
